@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent explicitIntent = new Intent(MainActivity.this, Pantalla2.class);
                 startActivity(explicitIntent);
+
             }
         });
     }
