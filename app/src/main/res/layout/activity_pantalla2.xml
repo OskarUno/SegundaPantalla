@@ -8,11 +8,11 @@
 
     <TextView
         android:id="@+id/textView2"
+        style="@style/styleTitulos"
         android:layout_width="345dp"
         android:layout_height="47dp"
         android:gravity="center"
         android:text="Pantalla 2"
-        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,6 +21,7 @@
 
     <Button
         android:id="@+id/btnLink"
+        style="@style/styleBotones"
         android:layout_width="226dp"
         android:layout_height="44dp"
         android:layout_marginTop="24dp"
@@ -31,6 +32,7 @@
 
     <Button
         android:id="@+id/btnVolver"
+        style="@style/styleBotones"
         android:layout_width="226dp"
         android:layout_height="44dp"
         android:layout_marginTop="48dp"
